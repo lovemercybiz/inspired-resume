@@ -1,7 +1,10 @@
 body {
     /* background-color: rgba(0, 250, 154, 0.356); */
     /* background-color: black; */
-    /* background: url('../triangle-1805473_960_720.png'); */
+    /* background: url('img/triangle-1805473_960_720.png'); */
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.521);
+
 }
 
 /* .geo {
@@ -13,26 +16,47 @@ img {
 
 h1 {
     padding-top: .4em;
-    border-top: solid aqua;
+    border-top: solid rgba(0, 255, 157, 0.432);
     padding-bottom: .5em;
-    border-bottom: solid aqua;
-    text-align: center;
+    border-bottom: solid rgba(0, 255, 157, 0.432);
+    /* text-align: center; */
 
 }
 h2 {
     padding-top: .4em;
-    border-top: solid green;
+    border-top: solid rgba(0, 255, 157, 0.432);
     padding-bottom: .5em;
-    border-bottom: solid green;
-    text-align: center;
+    border-bottom: solid rgba(0, 255, 157, 0.432);
+    /* text-align: center; */
 
 }
+/* h3 {
+    border-bottom: 1px solid rgba(0, 255, 157, 0.432);
+    bottom: 5px;
+    border-left: 10px;
+    border-right: 10px;
+} */
 
-.contact{
-    text-align: center;
-}
 
 #social {
-    text-align: center;
     text-transform: uppercase;
 }
+#icon{
+    font-size: 2em;
+    text-decoration: none;
+    color: rgba(0, 255, 157, 0.432);
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin: .5em;
+}
+
+hr{
+    color: rgba(0, 255, 157, 0.432);
+    width: auto;
+    height: 1em
+    /* size: 2; */
+}
+/* #email {
+    padding: 1em;
+    margin: 1em;
+} */
