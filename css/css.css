@@ -1,3 +1,38 @@
 body {
-    background-color: rgba(0, 250, 154, 0.356);
+    /* background-color: rgba(0, 250, 154, 0.356); */
+    /* background-color: black; */
+    /* background: url('../triangle-1805473_960_720.png'); */
+}
+
+/* .geo {
+    background-image: url(img/triangle-1805473_960_720.png)
+}
+img {
+    transform: rotate(90deg);
+} */
+
+h1 {
+    padding-top: .4em;
+    border-top: solid aqua;
+    padding-bottom: .5em;
+    border-bottom: solid aqua;
+    text-align: center;
+
+}
+h2 {
+    padding-top: .4em;
+    border-top: solid green;
+    padding-bottom: .5em;
+    border-bottom: solid green;
+    text-align: center;
+
+}
+
+.contact{
+    text-align: center;
+}
+
+#social {
+    text-align: center;
+    text-transform: uppercase;
 }
