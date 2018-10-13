@@ -4,6 +4,8 @@ body {
     /* background: url('img/triangle-1805473_960_720.png'); */
     text-align: center;
     background-color: rgba(245, 245, 245, 0.521);
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
@@ -16,22 +18,22 @@ img {
 
 h1 {
     padding-top: .4em;
-    border-top: solid rgba(0, 255, 157, 0.432);
+    border-top: solid rgb(18, 190, 182);
     padding-bottom: .5em;
-    border-bottom: solid rgba(0, 255, 157, 0.432);
+    border-bottom: solid rgb(18, 190, 182);
     /* text-align: center; */
 
 }
 h2 {
     padding-top: .4em;
-    border-top: solid rgba(0, 255, 157, 0.432);
+    border-top: solid rgb(18, 190, 182);
     padding-bottom: .5em;
-    border-bottom: solid rgba(0, 255, 157, 0.432);
+    border-bottom: solid rgb(18, 190, 182);
     /* text-align: center; */
 
 }
 /* h3 {
-    border-bottom: 1px solid rgba(0, 255, 157, 0.432);
+    border-bottom: 1px solid rgb(18, 190, 182);
     bottom: 5px;
     border-left: 10px;
     border-right: 10px;
@@ -44,14 +46,14 @@ h2 {
 #icon{
     font-size: 2em;
     text-decoration: none;
-    color: rgba(0, 255, 157, 0.432);
+    color: rgb(18, 190, 182);
     padding-top: .5em;
     padding-bottom: .5em;
     margin: .5em;
 }
 
 hr{
-    color: rgba(0, 255, 157, 0.432);
+    color: rgb(18, 190, 182);
     width: auto;
     height: 1em
     /* size: 2; */
