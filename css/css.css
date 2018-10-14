@@ -69,4 +69,33 @@ div {
 
 .relocate-work {
     color: rgba(255, 0, 0, 0.6);
+    text-decoration: none;
+    text-decoration-color: white;
 }
+
+#resumeDownload a {
+    padding: .3rem;
+
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    /* text-decoration-color: white; */
+}
+
+#resumeDownload :hover {
+    background-color: rgba(245, 245, 245, 0.521);
+    color: red;
+}
+/* 
+img {
+    width: 2em;
+    height: 1em;
+    
+} */
+
+/* #img{
+    background:fixed;
+    background-image: url(img/triangle-1805473_960_720.png);
+    background-size: cover;
+
+} */
