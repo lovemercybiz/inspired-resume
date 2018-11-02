@@ -6,39 +6,24 @@ body {
     background-color: rgba(245, 245, 245, 0.521);
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+/* background:url(../img/triangle-1805473_960_720.png); */
 }
-
-/* .geo {
-    background-image: url(img/triangle-1805473_960_720.png)
-}
-img {
-    transform: rotate(90deg);
-} */
 
 h1 {
     padding-top: .4em;
-    border-top: solid rgb(18, 190, 182);
+    border-top: solid rgb(55, 182, 174);
     padding-bottom: .5em;
-    border-bottom: solid rgb(18, 190, 182);
+    border-bottom: solid rgb(55, 182, 174);
     /* text-align: center; */
 
 }
 h2 {
     padding-top: .4em;
-    border-top: solid rgb(18, 190, 182);
+    border-top: solid rgb(55, 182, 174);
     padding-bottom: .5em;
-    border-bottom: solid rgb(18, 190, 182);
+    border-bottom: solid rgb(55, 182, 174);
     /* text-align: center; */
-
 }
-/* h3 {
-    border-bottom: 1px solid rgb(18, 190, 182);
-    bottom: 5px;
-    border-left: 10px;
-    border-right: 10px;
-} */
-
 
 #social {
     text-transform: uppercase;
@@ -46,17 +31,28 @@ h2 {
 #icon{
     font-size: 2em;
     text-decoration: none;
-    color: rgb(18, 190, 182);
+    color: rgb(55, 182, 174);
     padding-top: .5em;
     padding-bottom: .5em;
     margin: .5em;
 }
 
+#icon:hover, #resumeDownload:hover {
+    color: rgb(92, 161, 218);
+}
+
+#resumeDownload {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    /* text-decoration-color: white; */
+}
+
+
 hr{
-    color: rgb(18, 190, 182);
-    width: auto;
-    height: 1em
-    /* size: 2; */
+    color: rgb(55, 182, 174);
+    border-top: .05em solid;
+    /* make these line shorter, like how they are in "container" */
 }
 /* #email {
     padding: 1em;
@@ -73,19 +69,8 @@ div {
     text-decoration-color: white;
 }
 
-#resumeDownload a {
-    padding: .3rem;
 
-    background-color: red;
-    color: white;
-    text-decoration: none;
-    /* text-decoration-color: white; */
-}
 
-#resumeDownload :hover {
-    background-color: rgba(245, 245, 245, 0.521);
-    color: red;
-}
 /* 
 img {
     width: 2em;
@@ -98,4 +83,16 @@ img {
     background-image: url(img/triangle-1805473_960_720.png);
     background-size: cover;
 
+} */
+/* .geo {
+    background-image: url(img/triangle-1805473_960_720.png)
+}
+img {
+    transform: rotate(90deg);
+} */
+/* h3 {
+    border-bottom: 1px solid rgb(55, 182, 174);
+    bottom: 5px;
+    border-left: 10px;
+    border-right: 10px;
 } */
