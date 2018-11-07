@@ -30,9 +30,10 @@ h2 {
     padding-top: .5em;
     padding-bottom: .5em;
     margin: .5em;
+    /* display: none; */
 }
 
-#icon:hover, #resumeDownload:hover {
+#icon:hover {
     color: rgb(92, 161, 218);
 }
 
@@ -44,9 +45,12 @@ hr {
 }
 
 .relocate-work {
-    color: rgba(255, 0, 0, 0.6);
+    /* color: rgba(255, 0, 0, 0.6); */
+    color: darkblue;
+    font-weight: 300;
     text-decoration: none;
     text-decoration-color: white;
+    font-style: italic;
 }
 
 .shortLine {
@@ -58,3 +62,6 @@ hr {
     margin-top: 0;
     margin-bottom: 0;
 }
+/* .testing:hover {
+    color: green;
+} */
